@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: automaind
+    runtime: node
+    buildCommand: "echo 'No build needed'"
+    startCommand: "node serve.mjs"
